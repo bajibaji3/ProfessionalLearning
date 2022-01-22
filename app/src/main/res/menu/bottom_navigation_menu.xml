@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/learnFragment"
+        android:icon="@drawable/ic_learn"
+        android:title="学习" />
+    <item
+        android:id="@+id/videoFragment"
+        android:icon="@drawable/ic_video"
+        android:title="视频" />
+    <item
+        android:id="@+id/answerFragment"
+        android:icon="@drawable/ic_answer"
+        android:title="答题" />
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/learnFragment">
+
+    <fragment
+        android:id="@+id/learnFragment"
+        android:name="com.example.professionallearning.ui.fragment.LearnFragment"
+        android:label="学习"
+        tools:layout="@layout/learn_fragment" />
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.example.professionallearning.ui.fragment.VideoFragment"
+        android:label="视频"
+        tools:layout="@layout/video_fragment" />
+    <fragment
+        android:id="@+id/answerFragment"
+        android:name="com.example.professionallearning.ui.fragment.AnswerFragment"
+        android:label="答题"
+        tools:layout="@layout/answer_fragment" />
+</navigation>
